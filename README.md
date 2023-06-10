@@ -75,17 +75,17 @@ CELLO-3.0 can be used in a variety of ways, depending on your needs:
 * Visualizes circuit mapping and circuit-flow scores
 * Transform design to SBOL format for universtal transport
 
-
+#
 ## Future Work
 
-CELLO-3.0 is an ongoing project, and future work may include:
+UCFormatter is an ongoing project, and future work may include:
 
-* Optimizing Yosys commands for logic synthesis
-* Develop more compatibility with any genetic circuit designs
-* Integrating with other genetic engineering tools and databases
 * Optimizing the UCFormatter user interface
-* Building an interface for the Cello command-line tool
-
+* Completing some of the additional features:
+  * To save and output modifications to the UCF files
+  * Make graphical previews that represent the biological parts
+* Building an interface to interact with the Cello command-line tool
+#
 ## Contributing
 
 We welcome contributions from the community! If you'd like to contribute to CELLO-3.0, please follow the guidelines in the CONTRIBUTING.md file.
