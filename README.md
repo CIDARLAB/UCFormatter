@@ -1,6 +1,6 @@
 # CELLO-3.0
 
-CELLO is a software package for designing genetic circuits based on logic gate designs written in the Verilog format. It includes a core cell-logic synthesis process, plus a web-interface for modifying UCF files. CELLO-3.0 is capable of efficiently handling single and multi-cellular partitioning, gerenating results saved in a local directory on your machine, with optional verbose commandline-outputs.
+CELLO-3.0 is a software package for designing genetic circuits based on logic gate designs written in the Verilog format. It includes a core cell-logic synthesis process, plus a web-interface for modifying UCF files. It is still a work in progress, and more features are coming soon. CELLO-3.0 is capable of efficiently handling single and multi-cellular partitioning, gerenating results saved in a local directory on your machine, with optional verbose commandline-outputs.
 
 Currently, you can find two modules for Cello-3.0:
 - [CELLO-V3-Core](https://github.com/CIDARLAB/Cello-v3-Core) (run the Cello genetic circuit design algorithm)
@@ -65,6 +65,7 @@ CELLO-3.0 can be used in a variety of ways, depending on your needs:
 
 - As a standalone tool: Use the interactive shell interface to design optimized genetic circuits.
 - As a Python package: Import the core CELLO code as a Python library and use it as a component in your own software.
+- As a GUI tool (feature coming in the future!)
 
 *CELLO-3.0 also includes a proprietary UCF formatter tool (this tool) that can modify or create UCF files through an intuitive graphial user interface. As well as letting you see the DNA sequences for the parts required in the resulting Cello designs on the UCFormatter interface*
 
@@ -92,7 +93,7 @@ We welcome contributions from the community! If you'd like to contribute to CELL
 
 ## Credits
 
-CELLO-3.0 was developed by [Weiqi Ji](https://ginomcfino.github.io) and [other contributors]() at [CIDAR LAB](https://www.cidarlab.org) under [Douglas Densmore](https://www.cidarlab.org/doug-densmore). It was inspired by the original CELLO software package developed by [CIDAR LAB](https://www.cidarlab.org) and [other contributors]().
+CELLO-3.0 was developed by [Weiqi Ji](https://ginomcfino.github.io) and [other contributors]() at [CIDAR LAB](https://www.cidarlab.org) under [Douglas Densmore](https://www.cidarlab.org/doug-densmore). It was inspired by the original [CELLO](https://github.com/CIDARLAB/cello.git) and [Cello-v2](https://github.com/CIDARLAB/Cello-v2.git) software packages developed by [CIDAR LAB](https://www.cidarlab.org).
 
 ## License
 
